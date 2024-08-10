@@ -208,7 +208,7 @@ def set_ld_library():
 
 def grass_check():
     try:
-        CONFIG_GRASS_PATH = subprocess.run(["grass78", "--config", "path"], shell=True)
+        CONFIG_GRASS_PATH = subprocess.run(["grass83", "--config", "path"], shell=True)
         is_grass = True
     except subprocess.CalledProcessError:
         is_grass = False

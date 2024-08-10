@@ -2,7 +2,7 @@
 
 FINAL_FOLDER="/etc/ld.so.conf.d"
 FILE_NAME="geolinkage_grass_ld_var.conf"
-LD_LIB_PATH=$(grass78 --config path)/lib
+LD_LIB_PATH=$(grass83 --config path)/lib
 
 echo "  Setting Environment Var: LD_LIBRARY_PATH"
 echo "  GRASS Lib Folder: $LD_LIB_PATH"
