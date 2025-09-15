@@ -37,6 +37,7 @@ https://drive.google.com/file/d/19cyfgfXf_MqKMbWbbQTBxmONW3WIANr7/view?usp=drive
 ```
 
 ## Examples
+You can run similar commands with all the other examples. From largest to smallest model, the order would be: Limari, Azapa, Fictional site. You can run them from smallest to largest to see if you get any unexpected errors.
 ### Azapa example with MODFLOW model (*-g option*) and GeoCheck option (*-c option*):
 
 ```bash
